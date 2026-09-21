@@ -1,0 +1,15 @@
+# Experiment 6 - RNN, LSTM and GRU for Sequence Learning and Video Understanding
+# Tested with Python 3.10+ (Google Colab). On Colab these are already installed.
+# TensorFlow 2.16+ is required because the notebook uses Keras 3.
+
+tensorflow>=2.16
+numpy>=1.26
+pandas>=2.0
+scikit-learn>=1.3
+matplotlib>=3.7
+seaborn>=0.12
+opencv-python-headless>=4.8
+tqdm>=4.66
+huggingface_hub>=0.20     # only needed if VIDEO_SOURCE = "huggingface"
+ipython>=8.0
+jupyter>=1.0              # only needed to run the notebook locally
