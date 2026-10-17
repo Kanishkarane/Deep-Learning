@@ -22,11 +22,9 @@ The study covers:
 .
 ├── CS3807_Exp8_9_Attention_ResNet50_M4_Mac.ipynb   # the full experiment (runs top to bottom)
 ├── requirements.txt                                 # exact package versions used
-├── README.md
-└── report/
-    ├── CS3807_Exp8_9_Report.tex                     # LaTeX lab report
-    ├── CS3807_Exp8_9_Report.pdf                     # compiled report
-    └── images/                                      # all figures used in the report
+├── README.md                 
+├── CS3807_Exp8_9_Report.pdf                     # compiled report
+└── images/                                      # all figures used in the report
 ```
 
 When the notebook runs, it creates `lab_outputs_mac/` next to itself. This folder holds the dataset cache, the fixed split, `results.json`, the model weights and the figures. It is not part of the repository; see the notes below.
